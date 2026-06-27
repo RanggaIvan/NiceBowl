@@ -461,11 +461,13 @@ p {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 16px;
+  align-items: start;
 }
 
 .gallery-grid figure {
   display: grid;
   align-content: start;
+  align-self: start;
   margin: 0;
   background: var(--cream-2);
   border-radius: var(--radius);
